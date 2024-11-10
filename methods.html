@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>JavaScript </title>
+
+
+</head>
+
+<body>
+    <p id="demo"></p>
+<script>
+    var str='AiShA';
+    document.write(str.toUpperCase());
+    document.write("<br>");
+    document.write(str.toLowerCase());
+    document.write("<br>");
+    document.write(str.startsWith());
+    document.write("<br>");
+
+    for(var count=1; count<=20; count++)
+    {
+document.write("aisha");
+document.write("<br>");
+    }
+    var fruits=['apples','bananas','orange','mango'];
+    var text="";
+    var i;
+    for(i=0;i<fruits.length;i++)
+    {
+        text=text+fruits[i] + "<br>"
+    }
+
+    var day;
+    switch (new Date().getDay())
+    {
+case 0:
+day='sunday';
+break;
+
+case 1:
+day='monday';
+break;
+
+case 2:
+day='tuesday';
+break;
+
+    }
+document.getElementById("demo").innerHTML=day;
+</script>
+</body>
+
+</html>
